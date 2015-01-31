@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LOGIN</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widthm initial-escale=1.1">
+	<link rel="stylesheet" href="Bootstrap-3.3.2/css/bootstrap.css">
+	<style type="text/css">
+		html{
+			margin: 0px;
+		}
+		.loginbox{
+			border-radius: 5px;
+			box-shadow: 0px 2px 10px #d6d6d6;
+			margin: 50px auto;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: 320px;
+	
+		}
+		#enviar{
+			margin-top: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron loginbox">
+		<form method="POST" name="login" id="login">
+			<label> Nombre de Usuario:</label>
+			<input type="text" name="username" id="username" class="form-control">
+			<label> Contraseña:</label>
+			<input type="text" name="password" id="password" class="form-control">
+			<input type="submit" id="enviar" value="Conectarse" class="btn btn-success">
+		</form>
+	</div>
+</body>
+</html>
